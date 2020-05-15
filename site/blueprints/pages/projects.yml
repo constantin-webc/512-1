@@ -1,0 +1,90 @@
+title: 
+  en: Projects
+  fr: Projets
+
+options: 
+  delete: false
+  status: false
+  duplicate: false
+  url: false
+  preview: "{{ site.url }}/#{{ page.slug }}"
+
+tabs:
+
+  projects:
+    label: 
+      en: Projects
+      fr: Projets
+    icon: layers
+    columns:
+      left:
+        width: 2/3
+        sections:
+
+          listed:
+            type: pages
+            status: listed
+            headline:
+              en: Listed 
+              fr: Actifs
+            layout: cards
+            info: "{{ page.position }}"
+            template: project
+            image:
+              query: page.projectIllu.toFile
+              ratio: 1/1
+              cover: true
+      right:
+        width: 1/3
+        sections:
+          unlisted:
+            type: pages
+            status: unlisted
+            headline: 
+              en: Unlisted
+              fr: Non listés
+            info: "{{ page.position }}"
+            template: project
+          drafts:
+            type: pages
+            status: draft
+            headline: 
+              en: Drafts
+              fr: Brouillons
+            info: "{{ page.position }}"
+            template: project
+ 
+
+  content:
+    label:
+      en: Content 
+      fr: Contenu
+    icon: text
+    fields:
+      pagefootergridtitle:
+        label:
+          en: Title 
+          fr: Titre 
+        type: text
+        width: 2/4
+      allProjectsLink:
+        label:
+          en: External page link? 
+          fr: Lien vers site externe? 
+        type: url
+        width: 1/4
+      allProjectsLinkTitle:
+        label:
+          en: Button Title 
+          fr: Titre du bouton
+        type: text
+        width: 1/4
+      pagefootergrid:
+        label: 
+          en: text
+          fr: Texte 
+        type: textarea
+        buttons:
+          - italic
+          - bold
+          - email

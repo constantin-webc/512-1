@@ -1,0 +1,53 @@
+Title: News
+
+----
+
+Headline: Our Blog or Testimonies section, dolor sit amet ...
+
+----
+
+Headlineintro: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+----
+
+Blogonhome: true
+
+----
+
+Verticalview: true
+
+----
+
+Homebuttonlink: https://google.com
+
+----
+
+Homebuttontitle: All Blog posts!
+
+----
+
+Seotitle: 
+
+----
+
+Seodescription: 
+
+----
+
+Metaimage: 
+
+----
+
+Articlesperpage: 6
+
+----
+
+Articlesonhome: 5
+
+----
+
+Homeintrotitle: Cumque ipsa virtus efficiat ita beatam vitam..
+
+----
+
+Homeintro: ..Semovenda est igitur voluptas, non solum ut recta sequamini, sed etiam ut loqui deceat frugaliter.

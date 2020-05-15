@@ -1,0 +1,69 @@
+title: Article
+num: '{{ page.date.toDate("Ymd") }}'
+
+options:
+  preview: "{{ site.url }}/#{{ page.slug }}"
+  url: false
+
+
+
+columns:
+  left:
+    width: 2/3 
+    fields:
+
+      headline: 
+        label: 
+          en: Headline
+          fr: Gros titre
+        type: text 
+        width: 2/3
+
+      date:
+        label: 
+          en: Published date
+          fr: Publié le
+        type: date
+        default: now
+        width: 1/3
+        
+      headlineintro: fields/intro
+      
+      articlelink:
+        label:
+          en: Custom link
+          fr: Lien personnalisé
+        type: url
+        width: 1/2
+      articletitle:
+        label:
+          en: Button title
+          fr: Titre du bouton
+        type: text
+        width: 1/2 
+    
+  right:
+    width: 1/3 
+    sections:
+      articleinfos:
+        type: fields
+        fields:
+          illu: 
+            label: 
+              en: Illustration
+              fr: Illustration
+            type: files
+            multiple: false
+          illupresentation: 
+              label: 
+                en: Mini thumbnail
+                fr: Mini Vignette
+              type: toggle
+              text: Mini
+              help: 
+                en: Thumbnail presentation on Article
+                fr: presentation de la vignette sur l'article
+      images:
+        type: files
+        layout: cards
+        template: gallery

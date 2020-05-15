@@ -1,0 +1,67 @@
+title: Project
+
+options:
+  preview: "{{ site.url }}/#{{ page.slug }}"
+  url: false
+
+tabs:
+  content:
+    label: Contenu
+    icon: text
+    columns:
+      left:
+        width: 2/3 
+        fields:
+          headline:
+            label: 
+              en: Headline
+              fr: Gros titre
+            type: text
+            width: 2/3
+          articlelink:
+            label:
+              en: Link
+              fr: Lien
+            type: url
+            width: 1/3
+          projectIllu:
+            label: 
+              en: First illustration
+              fr: Première illustration
+            type: files
+            query: page.images
+            multiple: false
+            required: true
+            help: 
+              en: Required, this image will be shown in the projects grid
+              fr: Obligatoire - Cette image sera affichée sur la grille de projets 
+            width: 1/2    
+
+          projectIlluBack:
+            label: 
+              en: Second illustration
+              fr: Seconde illustration
+            type: files
+            query: page.files
+            multiple: false
+            help: 
+              en: Not required, This image is shown when project is opened in lightbox - If this field is empty, Illusstration First will be used.
+              fr: Non obligatoire - Cette image est affichée lorsque le projet est ouvert dans la lightbox - si ce champs n'est pas rempli, l'illustration Front sera utilisée par defaut.
+            width: 1/2
+          headlineintro:
+            label: Introduction 
+            type: textarea
+            buttons:
+              - italic
+              - bold
+              - '|'
+              - email
+              - link
+
+      right:
+        width: 1/3 
+        sections:
+          images:
+            type: files
+            template: gallery
+      

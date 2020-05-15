@@ -1,0 +1,67 @@
+Title: Apparet statim, quae sint officia
+
+----
+
+Headline: Facile est hoc cernere
+
+----
+
+Date: 2020-04-04
+
+----
+
+Headlineintro: Roges enim Aristonem, bonane ei videantur haec: vacuitas doloris, divitiae, valitudo; Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est. Quamquam tu hanc copiosiorem etiam soles dicere. Bona autem corporis huic sunt, quod posterius posui, similiora.
+
+----
+
+Articlelink: https://getkirby.com
+
+----
+
+Articletitle: Getkirby Website
+
+----
+
+Illu:
+
+- 4.jpg
+
+----
+
+Illupresentation: true
+
+----
+
+Seotitle: 
+
+----
+
+Seodescription: 
+
+----
+
+Metaimage: 
+
+----
+
+Tags: Photography
+
+----
+
+Textcontent:
+
+- 
+  sectiontitle: Lorem Ipsum
+  size: 'true'
+  posttype: Medias
+  text: ""
+  medias:
+    - paul-postema-adobg-epms0-unsplash.jpg
+  mediainlb: 'false'
+  mediatext: ""
+  itemlink:
+    type: page
+    value: services
+    text: My services
+  lineposttype: null
+  linelink: null

@@ -1,0 +1,100 @@
+Title: About
+
+----
+
+Headline: Minime vero probatur huic disciplinae, de qua loquor?
+
+----
+
+Headlineintro: Illud quaero, quid ei, qui in voluptate summum bonum ponat, consentaneum sit dicere. Minime vero probatur huic disciplinae, de qua loquor, aut iustitiam aut amicitiam propter utilitates adscisci aut probari.
+
+----
+
+Textcontent:
+
+- 
+  onhome: 'true'
+  titlesection: The place to be
+  size: 'true'
+  onhomecontent: '(image: antonio-mendes-5lcwqr1nfoi-unsplash.jpg)'
+  itemlink:
+    type: url
+    value: >
+      https://www.google.com/maps/place/Londres,+Royaume-Uni/@51.5287718,-0.2416817,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583
+    text: find us easily on google map
+    popup: true
+  linelink: null
+- 
+  onhome: 'true'
+  titlesection: >
+    Tria genera cupiditatum, naturales et
+    necessariae
+  size: 'false'
+  onhomecontent: |
+    **Re mihi non aeque satisfacit, et quidem locis pluribus. Efficiens dici potest.**
+    
+    Quocirca eodem modo sapiens erit affectus erga amicum, quo in se ipsum, quosque labores propter suam voluptatem susciperet, eosdem suscipiet propter amici voluptatem. (link: #contact text: Contact us)
+  itemlink:
+    type: url
+    value: https://google.com
+  linelink: null
+- 
+  onhome: 'true'
+  titlesection: >
+    Quod non subducta utilitatis ratione
+    effici solet
+  size: 'false'
+  onhomecontent: >
+    Heri, inquam, ludis commissis ex urbe
+    profectus veni ad vesperum. Sed quod
+    proximum fuit non vidit. Nunc ita
+    separantur, ut disiuncta sint, quo nihil
+    potest esse perversius. Sed ille, ut
+    dixi, vitiose. Quod non subducta
+    utilitatis ratione effici solet, sed
+    ipsum a se oritur et sua sponte
+    nascitur.
+  itemlink:
+    type: file
+    value: >
+      services/antonio-mendes-5lcwqr1nfoi-unsplash.jpg
+    text: Image lightbox
+  linelink: null
+- 
+  onhome: 'true'
+  titlesection: Nam si beatus umquam fuisset
+  size: 'true'
+  onhomecontent: |
+    Hanc in motu voluptatem sic enim has suaves et quasi dulces voluptates appellat-interdum ita extenuat, ut M. Is ita vivebat, ut nulla tam exquisita posset inveniri voluptas, qua non abundaret. Re mihi non aeque satisfacit, et quidem locis pluribus. Quem si tenueris, non modo meum Ciceronem, sed etiam me ipsum abducas licebit. Mihi enim satis est, ipsis non satis.
+    
+    *Sin autem eos non probabat, quid attinuit cum iis, quibuscum re concinebat, verbis discrepare?*
+  itemlink: null
+  linelink: null
+
+----
+
+Hideservices: true
+
+----
+
+Homeintro: Illud quaero, quid ei, qui in voluptate summum bonum ponat, consentaneum sit dicere. Minime vero probatur huic disciplinae, de qua loquor, aut iustitiam aut amicitiam propter utilitates adscisci aut probari.
+
+----
+
+Homeheadline: Minime vero probatur huic disciplinae, de qua loquor?
+
+----
+
+Homelinktitle: All our services
+
+----
+
+Seotitle: 
+
+----
+
+Seodescription: 
+
+----
+
+Metaimage: 

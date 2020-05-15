@@ -1,0 +1,15 @@
+title: Error
+preset: page
+pages: false
+options: 
+  delete: false
+  status: false
+  duplicate: false
+  url: false
+icon: alert
+status:
+  unlisted: unlisted
+fields:
+  text:
+    label: Text
+    type: textarea

@@ -1,0 +1,70 @@
+Title: @512-1 One Page Theme
+
+----
+
+Contactbtnmenu: true
+
+----
+
+Contactbtnmenutitle: Contact
+
+----
+
+Sitelogo:
+
+- logo.svg
+
+----
+
+Contacttext:
+
+**HELLO**
+<script src="https://gumroad.com/js/gumroad.js"></script>
+<a class="gumroad-button" href="https://gum.co/fpgnV" target="_blank">Buy the Theme</a>
+<br>
+<br>
+If you have any questions about the theme, please don't hesitate to contact me. If you are interested by this theme, that your future project has nothing to sell and is helping a just cause (and more particularly in the current period..)  then it should be free for you. Feel free to ask me..
+
+----
+
+Email: mail@mail.com
+
+----
+
+Tel: +33524987562
+
+----
+
+Address: 1 Boulevard de Paris - 75000 Paris
+
+----
+
+Copyright: @512 Theme 2020
+
+----
+
+Socials:
+
+- 
+  socialname: Facebook
+  socialurl: https://facebook.com
+  logo:
+    - facebook.svg
+- 
+  socialname: Instagram
+  socialurl: https://instagram.com
+  logo:
+    - instagram.svg
+- 
+  socialname: Twitter
+  socialurl: https://twitter.com
+  logo:
+    - twitter.svg
+
+----
+
+Homebtnmenu: true
+
+----
+
+Homebtnmenutitle: Top

@@ -1,0 +1,63 @@
+Title: Home
+
+----
+
+Bigtitre: We make the best cocktails in London...
+
+----
+
+Colortitle: false
+
+----
+
+Poster:
+
+- sans-titre-1.jpg
+
+----
+
+Posterfilter: false
+
+----
+
+Posteropacity: 6
+
+----
+
+Posterblur: 0
+
+----
+
+Hideintro: false
+
+----
+
+Introtitle: About Theme @512-1 for Kirby CMS
+
+----
+
+Introtext: **@512** is a light theme, responsive, fast and easy to use, with an administration interface that will allow you to manage the content of your site with ease (thanks to Kirby ...). If you have any questions about the theme, please don't hesitate to (email: constantin@fastmail.com text: contact me) or (link: https://twitter.com/cjlabfr text: @cjlabfr)
+
+----
+
+Seotitle: @512-1 - One page theme
+
+----
+
+Seodescription: 
+
+----
+
+Metaimage: 
+
+----
+
+Related: 
+
+----
+
+Relatedtitle: All about the theme here
+
+----
+
+Introtext2: 
