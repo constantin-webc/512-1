@@ -44,16 +44,26 @@ tabs:
         fields:
           contactBtnMenu:
             label: 
-              en: Add Contact button in the menu ?
-              fr: Ajouter le bouton Contact dans le menu ?
+              en: Add a "Contact" button in the menu ?
+              fr: Ajouter le bouton "Contact" dans le menu ?
             type: toggle
+            width: 1/3
           contactBtnMenuTitle:
             label: 
               en: Button title
               fr: Titre du bouton
             type: text
+            width: 2/3
             when:
               contactBtnMenu: true
+          logoheight:
+            label: 
+              en: Define logo height
+              fr: Définir la hauteur du logo
+            type: number
+            help:
+              en: The navigation bar is in a fixed position at the top of the screen. if your logo has a fairly large height, this will increase the height of the entire navigation bar and may end up occupying too much space on the site content. To remedy this, you can set the height of your logo here, which will add the correspondant margin to the content of the site.
+              fr: La bar de navigation est en position fixe en haut de l'écran. si votre logo a une hauteur assez importante, cela va augmenter la hauteur de toute la bar de navigation et peu finir par occuper trop d'espace sur le contenu du site. Pour y remédier, vous pouvez mentionner ici la hauteur de votre logo, qui ajoutera une marge sur le contenu du site.
 
 
         

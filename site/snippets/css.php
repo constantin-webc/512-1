@@ -60,6 +60,10 @@ https://github.com/filamentgroup/loadCSS
 </style>
 <?php endif?>
 
-
+<?php if($site->logoheight()->isNotEmpty()):?>
+  <style>
+    .header{margin-top:<?=$site->logoheight()?>px}
+  </style>
+<?php endif ?>
 
 
