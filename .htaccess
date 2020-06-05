@@ -16,7 +16,7 @@ RewriteEngine on
 #
 # RewriteBase /mysite
 
-# In some enviroments it's necessary to
+# In some environments it's necessary to
 # set the RewriteBase to:
 #
 # RewriteBase /
@@ -55,93 +55,3 @@ AddOutputFilterByType DEFLATE application/json
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
 </IfModule>
-
-<files .htaccess>
-  order allow,deny
-  deny from all
-</files>
-
-Options -Indexes
-
-# Sécurité (X-Frame-Options, MIME Sniffing, Content Policy, XSS)
-<IfModule mod_headers.c>
-    Header set X-Frame-Options SAMEORIGIN
-    Header set X-Content-Type-Options "nosniff"
-    # TODO : Rationalize with CSP
-    # Header set Content-Security-Policy "script-src 'self' https://maps.googleapis.com https://maps.gstatic.com; object-src 'self'"
-    Header set X-XSS-Protection "1; mode=block"
-</IfModule>
-
-# Types MIME
-<IfModule mod_mime.c>
-	AddType text/css css
-	AddType application/javascript js
-	
-	AddType image/svg+xml svg
-	AddType image/jpeg jpg jpeg
-	AddType image/png png
-	AddType image/x-icon ico
-	
-	AddType application/vnd.ms-fontobject eot
-	AddType application/font-woff woff
-	AddType font/woff2 woff2
-	
-	AddType application/pgp-keys asc
-</IfModule>
-
-
-# Compression DEFLATE
-<IfModule mod_deflate.c>
-	AddOutputFilterByType DEFLATE application/atom+xml \
-	                              application/javascript \
-	                              application/json \
-	                              application/rss+xml \
-	                              application/xhtml+xml \
-	                              application/xml \
-	                              image/svg+xml \
-	                              image/x-icon \
-	                              text/cache-manifest \
-	                              text/css \
-	                              text/html \
-	                              text/plain
-</IfModule>
-
-
-# Cache des fichiers via Expires
-<IfModule mod_expires.c>
-	ExpiresActive On
-	
-	ExpiresByType text/css "modification plus 1 year"
-	ExpiresByType application/javascript "modification plus 1 year"
-	
-	ExpiresByType image/svg+xml "modification plus 1 year"
-	ExpiresByType image/jpeg "modification plus 1 year"
-	ExpiresByType image/png "modification plus 1 year"
-	ExpiresByType image/x-icon "modification plus 1 year"
-	
-	ExpiresByType application/vnd.ms-fontobject "modification plus 1 year"
-	ExpiresByType application/font-woff "modification plus 1 year"
-	ExpiresByType font/woff2 "modification plus 1 year"
-</IfModule>
-
-# Cache des fichiers via Headers
-<IfModule mod_headers.c>
-    <FilesMatch ".(ico|jpe?g|png|gif|swf)$">
-        Header set Cache-Control "max-age=2592000, public"
-    </FilesMatch>
-    <FilesMatch ".(css)$">
-        Header set Cache-Control "max-age=604800, public"
-    </FilesMatch>
-    <FilesMatch ".(js)$">
-        Header set Cache-Control "max-age=604800, private"
-    </FilesMatch>
-    <FilesMatch ".(x?html?|php)$">
-        Header set Cache-Control "max-age=600, private, must-revalidate"
-    </FilesMatch>
-</IfModule>
-
-# Désactivation des ETags (force la prise en compte de Cache-Control et Expires)
-<IfModule mod_headers.c>
-    Header unset ETag
-</IfModule>
-FileETag None
