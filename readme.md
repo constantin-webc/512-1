@@ -1,12 +1,16 @@
-# @512 - Multipurpose theme
+# @512-One - Onepage theme
 
-Demo:
-<https://www.themes.constantinweb.com/512-1/>
+Demo:<https://www.themes.constantinweb.com/512-1/>
 
+@512-One is a Theme for the CMS Kirby - It is the One page version of [@512 multipurpose theme](https://github.com/constantinjoly/512)
 
 ## Trial
 
-You can try Kirby on your local machine or on a test server as long as you need to make sure it is the right tool for your next project.
+You can try Kirby and @512-one Theme on your local machine or on a test server as long as you need to make sure it is the right tool for your next project.
+
+## Usage
+
+@512-One Theme is free to try on your local machine or on a test server, but if you decide to use it for your project, please consider [make a donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LF8XQ2LV5LCH6&source=url)
 
 ## Buy a license
 
@@ -15,14 +19,16 @@ You can purchase your Kirby license at
 
 A Kirby license is valid for a single domain. You can find Kirby's license agreement here: <https://getkirby.com/license>
 
-
 ## The Panel
 
 You can find the login for Kirby's admin interface at http://yourdomain.com/panel. You will be guided through the signup process for your first user, when you visit the panel for the first time.
 
 ## Installation
 
-Kirby does not require a database, which makes it very easy to install. Just copy Kirby's files to your server and visit the URL for your website in the browser.
+- Clone or download this repository
+- Clone or download the [latest Kirby version](https://github.com/getkirby/kirby)
+
+Kirby does not require a database, which makes it very easy to install. Just copy @512 Theme's and Kirby's files to your server and visit the URL for your website in the browser.
 
 **Please check if the invisible .htaccess file has been
 copied to your server correctly**
@@ -31,40 +37,6 @@ copied to your server correctly**
 
 Kirby runs on PHP 7.1+, Apache or Nginx.
 
-### Download
-
-You can download the latest version of the Starterkit
-from https://download.getkirby.com
-
-### With Git
-
-If you are familiar with Git, you can clone Kirby's
-Starterkit repository from Github.
-
-    git clone https://github.com/getkirby/starterkit.git
-
-## Documentation
-
-<https://getkirby.com/docs>
-
-## Issues
-
-If you have a Github account, please report issues
-directly on Github: <https://github.com/getkirby/kirby/issues>
-
-Otherwise you can use Kirby's forum: https://forum.getkirby.com
-or send us an email: <support@getkirby.com>
-
-## Ideas & Feature Requests
-
-If you have ideas for new features, please submit a ticket in our ideas repository:
-<https://github.com/getkirby/kirby/ideas>
-
 ## Support
 
-<https://getkirby.com/support>
-
-## Copyright
-
-© 2009-2019 Bastian Allgeier (Bastian Allgeier GmbH)
-<https://getkirby.com>
+If you have any problem with the theme, please [create an issue](https://github.com/constantinjoly/512-1/issues)
