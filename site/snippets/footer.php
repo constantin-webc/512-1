@@ -39,7 +39,6 @@
 </footer>
 
 <?php snippet('lightbox-img') ?>
-<div aria-label="fermer la fenetre" id="overlay" class="overlay"></div>
 
 <?= js('assets/dist/js/prod.min.js') ?>
 
