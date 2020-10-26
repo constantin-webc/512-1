@@ -19,11 +19,14 @@ Sitelogo:
 Contacttext:
 
 **HELLO**
-<script src="https://gumroad.com/js/gumroad.js"></script>
-<a class="gumroad-button" href="https://gum.co/fpgnV" target="_blank">Buy the Theme</a>
+
+<div class="kt">
+<a href="https://github.com/constantinjoly/512-1">512-1 on Github</a> - <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=LF8XQ2LV5LCH6&amp;source=url" rel="nofollow"> Make a donation</a>
+</div>
+
 <br>
-<br>
-If you have any questions about the theme, please don't hesitate to contact me. If you are interested by this theme, that your future project has nothing to sell and is helping a just cause (and more particularly in the current period..)  then it should be free for you. Feel free to ask me..
+
+If you have any questions about the theme, please don't hesitate to contact me. 
 
 ----
 
