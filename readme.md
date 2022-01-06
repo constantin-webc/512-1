@@ -1,6 +1,6 @@
 # @512-One - Onepage theme
 
-Demo:<https://www.dev.rythmevertical.com/512-1/>
+Demo:<https://dev.webc.fr/512-1/>
 
 @512-One is a Theme for the CMS Kirby - It is the One page version of [@512 multipurpose theme](https://github.com/constantinjoly/512)
 
